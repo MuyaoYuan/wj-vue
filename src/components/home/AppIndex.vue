@@ -1,12 +1,12 @@
 <template>
     <div>
-      Hello World!
+      Hello White Jotter!
     </div>
 </template>
 
 <script>
 export default {
-  name: 'Appindex'
+  name: 'AppIndex'
 }
 </script>
 
