@@ -72,7 +72,7 @@ export default {
   }
 
   #poster {
-    background:url("../assets/background.jpg") no-repeat;
+    background:url("../assets/img/bg/background.jpg") no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;

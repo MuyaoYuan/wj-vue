@@ -85,6 +85,7 @@ export default {
         type: 'warning'
       }).then(() => {
         this.$axios
+          // post 请求的构造方式，post 不能像 get 请求那样直接把参数写在 url 里，而需要以键值对的方式传递
           .post('/delete', {id: id}).then(resp => {
             if (resp && resp.status === 200) {
               this.loadBooks()
